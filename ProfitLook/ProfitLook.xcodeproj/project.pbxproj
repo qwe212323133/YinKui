@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		/* Begin PBXBuildFile section */
+		AB0000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* AppDelegate.swift */; };
+		AB0000000000000000000020 /* Fund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000020 /* Fund.swift */; };
+		AB0000000000000000000021 /* FundDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000021 /* FundDB.swift */; };
+		AB0000000000000000000022 /* HoldingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000022 /* HoldingsService.swift */; };
+		AB0000000000000000000023 /* FundListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000023 /* FundListVC.swift */; };
+		AB0000000000000000000024 /* FundDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000024 /* FundDetailVC.swift */; };
+		AB0000000000000000000026 /* AddFundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000026 /* AddFundVC.swift */; };
+		AB0000000000000000000027 /* EditFundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000027 /* EditFundVC.swift */; };
+		AB0000000000000000000028 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000028 /* SettingsVC.swift */; };
+		AB0000000000000000000029 /* funddb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000029 /* funddb.txt */; };
+		AB000000000000000000002A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000002A /* Assets.xcassets */; };
+		/* End PBXBuildFile section */
+		/* Begin PBXFileReference section */
+		000000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		000000000000000000000020 /* Fund.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fund.swift; sourceTree = "<group>"; };
+		000000000000000000000021 /* FundDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundDB.swift; sourceTree = "<group>"; };
+		000000000000000000000022 /* HoldingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsService.swift; sourceTree = "<group>"; };
+		000000000000000000000023 /* FundListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundListVC.swift; sourceTree = "<group>"; };
+		000000000000000000000024 /* FundDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundDetailVC.swift; sourceTree = "<group>"; };
+		000000000000000000000026 /* AddFundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFundVC.swift; sourceTree = "<group>"; };
+		000000000000000000000027 /* EditFundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFundVC.swift; sourceTree = "<group>"; };
+		000000000000000000000028 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		000000000000000000000029 /* funddb.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = funddb.txt; sourceTree = "<group>"; };
+		00000000000000000000002A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000000000000000004 /* ProfitLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfitLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		/* End PBXFileReference section */
+		/* Begin PBXGroup section */
+		00000000000000000000000A /* ProfitLook */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000001 /* AppDelegate.swift */,
+				000000000000000000000020 /* Fund.swift */,
+				000000000000000000000021 /* FundDB.swift */,
+				000000000000000000000022 /* HoldingsService.swift */,
+				000000000000000000000023 /* FundListVC.swift */,
+				000000000000000000000024 /* FundDetailVC.swift */,
+				000000000000000000000026 /* AddFundVC.swift */,
+				000000000000000000000027 /* EditFundVC.swift */,
+				000000000000000000000028 /* SettingsVC.swift */,
+				000000000000000000000029 /* funddb.txt */,
+				00000000000000000000002A /* Assets.xcassets */,
+				000000000000000000000005 /* Info.plist */,
+			);
+			path = ProfitLook;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000004 /* ProfitLook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000009 = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000A /* ProfitLook */,
+				00000000000000000000000B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		/* End PBXGroup section */
+		/* Begin PBXNativeTarget section */
+		00000000000000000000000C /* ProfitLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000014 /* Build configuration list for PBXNativeTarget "ProfitLook" */;
+			buildPhases = (
+				00000000000000000000000E /* Sources */,
+				00000000000000000000000F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProfitLook;
+			productName = ProfitLook;
+			productReference = 000000000000000000000004 /* ProfitLook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		/* End PBXNativeTarget section */
+		/* Begin PBXProject section */
+		00000000000000000000000D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					00000000000000000000000C /* ProfitLook */ = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000015 /* Build configuration list for PBXProject "ProfitLook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000009;
+			productRefGroup = 00000000000000000000000B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00000000000000000000000C /* ProfitLook */,
+			);
+		};
+		/* End PBXProject section */
+		/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000000F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0000000000000000000029 /* funddb.txt in Resources */,
+				AB000000000000000000002A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		/* End PBXResourcesBuildPhase section */
+		/* Begin PBXSourcesBuildPhase section */
+		00000000000000000000000E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0000000000000000000001 /* AppDelegate.swift in Sources */,
+				AB0000000000000000000020 /* Fund.swift in Sources */,
+				AB0000000000000000000021 /* FundDB.swift in Sources */,
+				AB0000000000000000000022 /* HoldingsService.swift in Sources */,
+				AB0000000000000000000023 /* FundListVC.swift in Sources */,
+				AB0000000000000000000024 /* FundDetailVC.swift in Sources */,
+				AB0000000000000000000026 /* AddFundVC.swift in Sources */,
+				AB0000000000000000000027 /* EditFundVC.swift in Sources */,
+				AB0000000000000000000028 /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		/* End PBXSourcesBuildPhase section */
+		/* Begin XCBuildConfiguration section */
+		000000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProfitLook/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brurus.profitlook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ENABLE_BITCODE = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_ALLOWED = NO;
+			};
+			name = Debug;
+		};
+		000000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProfitLook/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brurus.profitlook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ENABLE_BITCODE = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_ALLOWED = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		000000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		000000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Release;
+		};
+		/* End XCBuildConfiguration section */
+		/* Begin XCConfigurationList section */
+		000000000000000000000014 /* Build configuration list for PBXNativeTarget "ProfitLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000010 /* Debug */,
+				000000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000015 /* Build configuration list for PBXProject "ProfitLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000012 /* Debug */,
+				000000000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		/* End XCConfigurationList section */
+	};
+	rootObject = 00000000000000000000000D /* Project object */;
+}
