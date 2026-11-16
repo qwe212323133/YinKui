@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标前景：复刻 iOS 版「盈亏一眼」白底坐标轴 + 红到橙上升箭头。
+  108dp viewport，内容收在中心安全区（28~80），避免各厂商遮罩裁切。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 淡色坐标参考线 -->
+    <path
+        android:pathData="M36,28 L36,80 M28,54 L80,54 M28,74 L64,74"
+        android:strokeColor="@color/ic_grid"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- 上升曲线：红 -> 橙红 -> 橙 三段模拟原图渐变 -->
+    <path
+        android:pathData="M32,78 C33,66 38,58 46,52"
+        android:strokeColor="#FFFF2D20"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent" />
+    <path
+        android:pathData="M46,52 C56,47 64,43 70,36"
+        android:strokeColor="#FFFF7314"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent" />
+    <path
+        android:pathData="M70,36 C73,33 75,31 77,28"
+        android:strokeColor="#FFFFA500"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- 箭头 -->
+    <path
+        android:pathData="M67,29 L78,27 L76,38"
+        android:strokeColor="#FFFFA500"
+        android:strokeWidth="7"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent" />
+</vector>
